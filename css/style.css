@@ -1,0 +1,69 @@
+/******************************************************************************/
+/*****************************ESTILOS GENERALES********************************/
+/******************************************************************************/
+:root {
+    --ColorFondoHeader: #875374;
+    --ColorTextoMenu: #F5CFD1;
+    --ColorResalteMenu: rgba(34.9, 12.5, 26.7, .2);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+/******************************************************************************/
+/****************************CONFIGURACION HEADER******************************/
+/******************************************************************************/
+
+/**MENU************************************************************************/
+header {
+    background-color: var(--ColorFondoHeader);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 0 0;
+    width: 380px;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contenedor_logo {
+    /*Utiliza el ancho completo del header*/
+}
+
+.contenedor_logo h1 {
+    font-family: 'League Script', cursive;
+    font-size: 3.5em;
+    text-align: center;
+    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
+    color: #F5CFD1;
+}
+
+.contenedor_nav {
+    background-color: var(--ColorFondoHeader);
+    text-align: center;
+}
+
+.contenedor_nav a {
+    text-decoration: none;
+    color: var(--ColorTextoMenu);
+    font-family: 'Poiret One', cursive;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    line-height: 25px;
+    transition: background-color 0.7s;
+}
+
+.contenedor_nav a:hover {
+    background-color: var(--ColorResalteMenu);
+
+}
+
+/**ANIMACION DE FONDO**********************************************************/
