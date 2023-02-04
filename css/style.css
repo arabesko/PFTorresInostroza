@@ -5,7 +5,7 @@
     --ColorFondoHeader: #875374;
     --ColorTextoMenu: #F5CFD1;
     --ColorResalteMenu: rgba(34.9, 12.5, 26.7, .2);
-    --ColorBurbuja: rgba(255, 255, 255, 0.45);
+    --ColorBurbuja: rgba(41, 70, 199, 0.753);
 }
 
 * {
@@ -41,6 +41,11 @@ header {
     overflow: hidden;
 }
 
+.contenedor_logo_menu {
+    text-align: center;
+    z-index: 1;
+}
+
 .contenedor_logo h1 {
     font-family: 'League Script', cursive;
     font-size: 3.5em;
@@ -51,7 +56,6 @@ header {
 
 .contenedor_nav {
     text-align: center;
-    z-index: 1;
 }
 
 .contenedor_nav a {
@@ -245,22 +249,36 @@ header {
 /*********************************RESPONSIVE***********************************/
 /******************************************************************************/
 
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 480px) {
 
     /**MENU************************************************************************/
     .contenedor_logo_menu {
-        padding-top: 70px;
-        padding-left: 20px;
-        display: flex;
+        margin: auto;
     }
 
     .contenedor_nav {
         padding-top: 10px;
+    }
+
+    .contenedor_nav li {
+        float: left;
+    }
+}
+
+@media screen and (min-width: 880px) {
+
+    /**MENU************************************************************************/
+    .contenedor_logo_menu {
+        padding-top: 25px;
+        display: flex;
+    }
+
+    .contenedor_nav {
+        padding-top: 15px;
         padding-left: 200px;
     }
 
     .contenedor_nav li {
         float: left;
     }
-
 }
