@@ -28,12 +28,17 @@ header {
     display: flex;
     flex-direction: column;
     border-radius: 20px 20px 0 0;
-    /*width: 380px; ancho mobile*/
+    /*width: 320px; ancho celular vt*/
+    /*width: 480px; ancho celular hz*/
+    /*width: 768px; ancho tablet hz*/
+    /*width: 1200px; ancho desktop hz*/
     margin: auto;
+    height: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
     max-width: 1000px;
     margin-top: 10px;
+    overflow: hidden;
 }
 
 .contenedor_logo h1 {
@@ -80,8 +85,7 @@ header {
     background-color: var(--ColorBurbuja);
     top: 165px;
     opacity: 0%;
-    a
-    /*nimation: MovBurbuja 3s linear infinite;*/
+    animation: MovBurbuja 3s linear infinite;
 }
 
 @keyframes MovBurbuja {
@@ -233,4 +237,30 @@ header {
     left: 14%;
     animation-duration: 5s;
     animation-delay: 3s;
+}
+
+
+
+/******************************************************************************/
+/*********************************RESPONSIVE***********************************/
+/******************************************************************************/
+
+@media screen and (min-width: 880px) {
+
+    /**MENU************************************************************************/
+    .contenedor_logo_menu {
+        padding-top: 70px;
+        padding-left: 20px;
+        display: flex;
+    }
+
+    .contenedor_nav {
+        padding-top: 10px;
+        padding-left: 200px;
+    }
+
+    .contenedor_nav li {
+        float: left;
+    }
+
 }
