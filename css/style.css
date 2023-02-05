@@ -5,7 +5,7 @@
     --ColorFondoHeader: #875374;
     --ColorTextoMenu: #F5CFD1;
     --ColorResalteMenu: rgba(34.9, 12.5, 26.7, .2);
-    --ColorBurbuja: rgba(41, 70, 199, 0.753);
+    --ColorBurbuja: rgba(135, 135, 203, 0.753);
 }
 
 * {
@@ -22,7 +22,7 @@ body {
 /****************************CONFIGURACION HEADER******************************/
 /******************************************************************************/
 
-/**MENU************************************************************************/
+/**MENU MOBILE FIRST***********************************************************/
 header {
     background-color: var(--ColorFondoHeader);
     display: flex;
@@ -89,7 +89,7 @@ header {
     background-color: var(--ColorBurbuja);
     top: 165px;
     opacity: 0%;
-    animation: MovBurbuja 3s linear infinite;
+    /*animation: MovBurbuja 3s linear infinite;*/
 }
 
 @keyframes MovBurbuja {
@@ -168,7 +168,7 @@ header {
     height: 85px;
     left: 75%;
     animation-duration: 6s;
-    animation-delay: 4s;
+    animation-delay: 1s;
 }
 
 .burbuja:nth-child(8) {
@@ -192,7 +192,7 @@ header {
     height: 75px;
     left: 90%;
     animation-duration: 3s;
-    animation-delay: 3s;
+    animation-delay: 5s;
 }
 
 .burbuja:nth-child(11) {
@@ -204,11 +204,11 @@ header {
 }
 
 .burbuja:nth-child(12) {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     left: 10%;
     animation-duration: 3;
-    animation-delay: 0s;
+    animation-delay: 2s;
 }
 
 .burbuja:nth-child(13) {
@@ -232,7 +232,7 @@ header {
     height: 150px;
     left: 34%;
     animation-duration: 6s;
-    animation-delay: 0s;
+    animation-delay: 5s;
 }
 
 .burbuja:nth-child(16) {
@@ -240,8 +240,71 @@ header {
     height: 150px;
     left: 14%;
     animation-duration: 5s;
-    animation-delay: 3s;
+    animation-delay: 7s;
 }
+
+/******************************************************************************/
+/******************************GALERIA ARTISTA*********************************/
+/******************************************************************************/
+
+.contenedor_galeria {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+    gap: 10px;
+    max-width: 1000px;
+}
+
+.contenedor_galeria div {
+    flex: 1;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.contenedor_galeria div:hover {
+    flex: 3
+}
+
+.contenedor_galeria:hover :not(:hover) {
+    opacity: .15;
+}
+
+.foto_galeria {
+    height: 350px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: rebeccapurple;
+}
+
+.contenedor_galeria :nth-child(1) {
+    background-image: url(/imagenes/galeria_tris/1.png);
+}
+
+.contenedor_galeria :nth-child(2) {
+    background-image: url(/imagenes/galeria_tris/2.png);
+}
+
+.contenedor_galeria :nth-child(3) {
+    background-image: url(/imagenes/galeria_tris/3.png);
+}
+
+.contenedor_galeria :nth-child(4) {
+    background-image: url(/imagenes/galeria_tris/4.png);
+}
+
+.contenedor_galeria :nth-child(5) {
+    background-image: url(/imagenes/galeria_tris/5.png);
+}
+
+.contenedor_galeria :nth-child(6) {
+    background-image: url(/imagenes/galeria_tris/6.png);
+}
+
+
+
 
 
 
