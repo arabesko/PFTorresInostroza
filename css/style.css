@@ -34,6 +34,7 @@ p {
     font-family: var(--FuenteTexto);
     color: var(--ColorTextoMenu);
     padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 /******************************************************************************/
@@ -108,7 +109,7 @@ header {
     background-color: var(--ColorBurbuja);
     top: 165px;
     opacity: 0%;
-    animation: MovBurbuja 3s linear infinite;
+    /*animation: MovBurbuja 3s linear infinite;*/
 }
 
 @keyframes MovBurbuja {
@@ -326,7 +327,7 @@ header {
 /*****************************RESEÑA ARTISTA***********************************/
 /******************************************************************************/
 
-/**FONDO FLOREADO**************************************************************/
+/**FONDO***********************************************************************/
 
 .contenedor_fondo {
     background-color: #3A1F4D;
@@ -352,6 +353,31 @@ header {
     font-size: 2.2em;
     font-weight: bold;
     padding-bottom: 10px;
+}
+
+/******************************************************************************/
+/*************************GALERIA DE TATUAJES**********************************/
+/******************************************************************************/
+.tituloGalreria {
+    text-align: center;
+    max-width: 1000px;
+    margin-bottom: 10px;
+    height: 70px;
+}
+
+.contenedor_galeria_tatuajes {
+    margin-top: 10px;
+    height: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contenedor_galeria_tatuajes img {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8%;
 }
 
 
@@ -418,6 +444,13 @@ footer {
     .contenedor_fondo {
         height: 210px;
     }
+
+    /**GALERIA DE TATUAJES*************************************************************/
+    .tituloGalreria {
+        height: 70px;
+        text-align: center;
+        max-width: 1000px;
+    }
 }
 
 @media screen and (min-width: 880px) {
@@ -438,7 +471,11 @@ footer {
     }
 
     /**DESCRIPCIÓN ARTISTA**********************************************************/
-    .contenedor_fondo {
-        height: 180px;
+    .tituloGalreria {
+        height: 70px;
+        text-align: center;
+        max-width: 1000px;
     }
+
+
 }
