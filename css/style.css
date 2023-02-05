@@ -2,10 +2,20 @@
 /*****************************ESTILOS GENERALES********************************/
 /******************************************************************************/
 :root {
+    /*COLORES*/
     --ColorFondoHeader: #875374;
     --ColorTextoMenu: #F5CFD1;
     --ColorResalteMenu: rgba(34.9, 12.5, 26.7, .2);
-    --ColorBurbuja: rgba(135, 135, 203, 0.753);
+    --ColorBurbuja: #3A1F4D;
+    --ColorFooter: #875374;
+    /*TAMAÑO FUENTES*/
+    --TamañoFuenteLogo: 3.5em;
+    --TamañoFuenteMenu: 1.2em;
+    --TamañoParrafos: 1.05em;
+
+    /*FUENTES*/
+    --FuenteLogo: 'League Script', cursive;
+    --FuenteTexto: 'Poiret One', cursive
 }
 
 * {
@@ -16,6 +26,14 @@ body {
     background-color: black;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+h2,
+p {
+    font-size: var(--TamañoParrafos);
+    font-family: var(--FuenteTexto);
+    color: var(--ColorTextoMenu);
+    padding-bottom: 5px;
 }
 
 /******************************************************************************/
@@ -47,8 +65,8 @@ header {
 }
 
 .contenedor_logo h1 {
-    font-family: 'League Script', cursive;
-    font-size: 3.5em;
+    font-family: var(--FuenteLogo);
+    font-size: var(--TamañoFuenteLogo);
     text-align: center;
     text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
     color: #F5CFD1;
@@ -61,7 +79,8 @@ header {
 .contenedor_nav a {
     text-decoration: none;
     color: var(--ColorTextoMenu);
-    font-family: 'Poiret One', cursive;
+    font-family: var(--FuenteTexto);
+    font-size: var(--TamañoFuenteMenu);
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 15px;
@@ -303,6 +322,72 @@ header {
     background-image: url(/imagenes/galeria_tris/6.png);
 }
 
+/******************************************************************************/
+/*****************************RESEÑA ARTISTA***********************************/
+/******************************************************************************/
+
+/**FONDO FLOREADO**************************************************************/
+
+.contenedor_fondo {
+    background-color: #3A1F4D;
+    background-size: cover;
+    height: 300px;
+    margin: auto;
+    max-width: 1000px;
+    margin-top: 10px;
+    padding-top: 4px;
+}
+
+.efecto_vidrio {
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 99%;
+    height: 98%;
+    margin: auto;
+    padding: 10px;
+}
+
+.efecto_vidrio h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+/******************************************************************************/
+/**CONTACTO EN REDES SOCIALES**************************************************/
+/******************************************************************************/
+
+footer {
+    background-color: var(--ColorFooter);
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.contenedor_iconos {
+    display: flex;
+    justify-content: center;
+}
+
+.icono {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.contactenos p {
+    padding-top: 5px;
+    text-align: center;
+    background-color: var(--ColorFooter);
+    color: black;
+    font-weight: bold;
+}
 
 
 
@@ -326,6 +411,11 @@ header {
     .contenedor_nav li {
         float: left;
     }
+
+    /**DESCRIPCIÓN ARTISTA**********************************************************/
+    .contenedor_fondo {
+        height: 210px;
+    }
 }
 
 @media screen and (min-width: 880px) {
@@ -343,5 +433,10 @@ header {
 
     .contenedor_nav li {
         float: left;
+    }
+
+    /**DESCRIPCIÓN ARTISTA**********************************************************/
+    .contenedor_fondo {
+        height: 180px;
     }
 }
