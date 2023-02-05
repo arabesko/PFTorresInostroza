@@ -300,27 +300,27 @@ header {
 }
 
 .contenedor_galeria :nth-child(1) {
-    background-image: url(/imagenes/galeria_tris/1.png);
+    background-image: url(../imagenes/galeria_tris/1.png);
 }
 
 .contenedor_galeria :nth-child(2) {
-    background-image: url(/imagenes/galeria_tris/2.png);
+    background-image: url(../imagenes/galeria_tris/2.png);
 }
 
 .contenedor_galeria :nth-child(3) {
-    background-image: url(/imagenes/galeria_tris/3.png);
+    background-image: url(../imagenes/galeria_tris/3.png);
 }
 
 .contenedor_galeria :nth-child(4) {
-    background-image: url(/imagenes/galeria_tris/4.png);
+    background-image: url(../imagenes/galeria_tris/4.png);
 }
 
 .contenedor_galeria :nth-child(5) {
-    background-image: url(/imagenes/galeria_tris/5.png);
+    background-image: url(../imagenes/galeria_tris/5.png);
 }
 
 .contenedor_galeria :nth-child(6) {
-    background-image: url(/imagenes/galeria_tris/6.png);
+    background-image: url(../imagenes/galeria_tris/6.png);
 }
 
 /******************************************************************************/
@@ -377,7 +377,7 @@ header {
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    border-radius: 8%;
+    border-radius: 20px;
 }
 
 
