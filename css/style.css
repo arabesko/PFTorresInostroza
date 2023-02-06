@@ -356,7 +356,7 @@ header {
 }
 
 /******************************************************************************/
-/*************************GALERIA DE TATUAJES**********************************/
+/**************GALERIA DE TATUAJES / GALERIA DE DISEÑOS************************/
 /******************************************************************************/
 .tituloGalreria {
     text-align: center;
@@ -380,9 +380,37 @@ header {
     border-radius: 20px;
 }
 
+/******************************************************************************/
+/***************************PREGUNTAS Y RESPUESTAS*****************************/
+/******************************************************************************/
+.accordion-header {
+    background-color: #000000;
+}
+
+.accordion-button {
+    background-color: #9d759b8f;
+    color: #F5CFD1;
+}
+
+.accordion-header {
+    background-color: black;
+}
+
+.accordion {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.accordion-body {
+    background-color: #8753746f;
+    font-size: var(--TamañoParrafos);
+    font-family: var(--FuenteTexto);
+    color: black;
+}
+
 
 /******************************************************************************/
-/**CONTACTO EN REDES SOCIALES**************************************************/
+/***********************CONTACTO EN REDES SOCIALES*****************************/
 /******************************************************************************/
 
 footer {
