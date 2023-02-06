@@ -410,6 +410,68 @@ header {
 
 
 /******************************************************************************/
+/***************************FORMULARIO DE CONTACTO*****************************/
+/******************************************************************************/
+
+.contenedor_formualrio {
+    padding: 20px;
+}
+
+.contenedor_formulario form {
+    background-color: rgba(59 59 59 / 0.644);
+    border-radius: 20px;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    font-family: --FuenteTexto;
+}
+
+.contenedor_formulario form h2 {
+    font-size: 18px;
+    text-align: left;
+    font-weight: normal;
+}
+
+.cajas_ingreso {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 15px;
+    border-radius: 7px;
+    background-color: rgba(69 57 69 / 0.929);
+    border: 1px solid rgba(183 115 183 / 0.929);
+    font-size: 13px;
+    font-family: --FuenteTexto;
+    color: rgba(228 130 228 / 0.929);
+}
+
+.ubicacion {
+    background-color: transparent;
+    width: 60%;
+    height: 50px;
+    padding-top: 16px;
+    padding-left: 50px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.botonFormulario {
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: 1px solid rgba(0 0 0 /0.35);
+    background-color: blueviolet;
+    color: white;
+}
+
+.botonFormulario:hover {
+    background-color: rgb(158, 102, 211);
+}
+
+
+
+/******************************************************************************/
 /***********************CONTACTO EN REDES SOCIALES*****************************/
 /******************************************************************************/
 
