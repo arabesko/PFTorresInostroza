@@ -1,0 +1,23 @@
+{
+  "name": "pagina_tris",
+  "version": "1.0.0",
+  "description": "Pagina proyecto Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arabesko/PreEntrega2TorresInostroza.git"
+  },
+  "author": "Luis Torres Inostroza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arabesko/PreEntrega2TorresInostroza/issues"
+  },
+  "homepage": "https://github.com/arabesko/PreEntrega2TorresInostroza#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
