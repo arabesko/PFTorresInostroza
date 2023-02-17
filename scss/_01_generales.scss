@@ -1,0 +1,40 @@
+/******************************************************************************/
+/*****************************ESTILOS GENERALES********************************/
+/******************************************************************************/
+
+
+/*COLORES*/
+$ColorFondoHeader: #875374;
+$ColorTextoMenu: #F5CFD1;
+$ColorResalteMenu: rgba(34.9, 12.5, 26.7, .2);
+$ColorBurbuja: #3A1F4D;
+$ColorFooter: #875374;
+/*TAMAÑO FUENTES*/
+$TamañoFuenteLogo: 3.5em;
+$TamañoFuenteMenu: 1.2em;
+$TamañoParrafos: 1.05em;
+
+/*FUENTES*/
+$FuenteLogo: 'League Script', cursive;
+$FuenteTexto: 'Poiret One',
+    cursive;
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h2,
+p {
+    font-size: $TamañoParrafos;
+    font-family: $FuenteTexto;
+    color: $ColorTextoMenu;
+    padding-bottom: 5px;
+    padding-bottom: 10px;
+}

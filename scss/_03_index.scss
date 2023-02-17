@@ -1,0 +1,91 @@
+/******************************************************************************/
+/******************************GALERIA ARTISTA*********************************/
+/******************************************************************************/
+
+.contenedor_galeria {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: auto;
+    margin: auto;
+    padding-top: 10px;
+    gap: 10px;
+    max-width: 1000px;
+}
+
+.contenedor_galeria div {
+    flex: 1;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.contenedor_galeria div:hover {
+    flex: 3
+}
+
+.contenedor_galeria:hover :not(:hover) {
+    opacity: .15;
+}
+
+.foto_galeria {
+    height: 350px;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: rebeccapurple;
+}
+
+.contenedor_galeria :nth-child(1) {
+    background-image: url(../imagenes/galeria_tris/1.png);
+}
+
+.contenedor_galeria :nth-child(2) {
+    background-image: url(../imagenes/galeria_tris/2.png);
+}
+
+.contenedor_galeria :nth-child(3) {
+    background-image: url(../imagenes/galeria_tris/3.png);
+}
+
+.contenedor_galeria :nth-child(4) {
+    background-image: url(../imagenes/galeria_tris/4.png);
+}
+
+.contenedor_galeria :nth-child(5) {
+    background-image: url(../imagenes/galeria_tris/5.png);
+}
+
+.contenedor_galeria :nth-child(6) {
+    background-image: url(../imagenes/galeria_tris/6.png);
+}
+
+/******************************************************************************/
+/*****************************RESEÑA ARTISTA***********************************/
+/******************************************************************************/
+
+/**FONDO***********************************************************************/
+
+.contenedor_fondo {
+    background-color: #3A1F4D;
+    background-size: cover;
+    height: 300px;
+    margin: auto;
+    max-width: 1000px;
+    margin-top: 10px;
+    padding-top: 4px;
+}
+
+.efecto_vidrio {
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 99%;
+    height: 98%;
+    margin: auto;
+    padding: 10px;
+}
+
+.efecto_vidrio h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    padding-bottom: 10px;
+}

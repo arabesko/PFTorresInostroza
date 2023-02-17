@@ -1,0 +1,249 @@
+/******************************************************************************/
+/****************************CONFIGURACION HEADER******************************/
+/******************************************************************************/
+
+/**MENU MOBILE FIRST***********************************************************/
+header {
+    background-color: $ColorFondoHeader;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 0 0;
+    /*width: 320px; ancho celular vt*/
+    /*width: 480px; ancho celular hz*/
+    /*width: 768px; ancho tablet hz*/
+    /*width: 1200px; ancho desktop hz*/
+    margin: auto;
+    height: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1000px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.contenedor_logo_menu {
+    text-align: center;
+    z-index: 1;
+}
+
+.contenedor_logo h1 {
+    font-family: $FuenteLogo;
+    font-size: $TamañoFuenteLogo;
+    text-align: center;
+    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
+    color: #F5CFD1;
+}
+
+.contenedor_nav {
+    text-align: center;
+}
+
+.contenedor_nav a {
+    text-decoration: none;
+    color: $ColorTextoMenu;
+    font-family: $FuenteTexto;
+    font-size: $TamañoFuenteMenu;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    line-height: 25px;
+    transition: background-color 0.7s;
+}
+
+.contenedor_nav a:hover {
+    background-color: $ColorResalteMenu;
+
+}
+
+/**ANIMACION DE FONDO**********************************************************/
+.contenedor_burbujas {
+    background-color: black;
+    position: relative;
+    z-index: 0;
+}
+
+.burbuja {
+    position: absolute;
+    border-radius: 50%;
+    background-color: $ColorBurbuja;
+    top: 165px;
+    opacity: 0%;
+    animation: MovBurbuja 3s linear infinite;
+}
+
+@keyframes MovBurbuja {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0.15;
+    }
+
+    100% {
+        top: -100px;
+        opacity: 0;
+    }
+}
+
+.burbuja:nth-child(1) {
+    width: 40px;
+    height: 40px;
+    left: 0%;
+    animation-duration: 5s;
+    animation-delay: 4s;
+}
+
+.burbuja:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    left: 5%;
+    animation-duration: 10s;
+    animation-delay: 10s;
+}
+
+.burbuja:nth-child(3) {
+    width: 65px;
+    height: 65px;
+    left: 10%;
+    animation-duration: 7s;
+    animation-delay: 4s;
+}
+
+.burbuja:nth-child(4) {
+    width: 100px;
+    height: 100px;
+    left: 15%;
+    animation-duration: 4s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(5) {
+    width: 25px;
+    height: 25px;
+    left: 20%;
+    animation-duration: 7s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(6) {
+    width: 60px;
+    height: 60px;
+    left: 25%;
+    animation-duration: 8s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(7) {
+    width: 35px;
+    height: 35px;
+    left: 30%;
+    animation-duration: 5s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(8) {
+    width: 70px;
+    height: 70px;
+    left: 35%;
+    animation-duration: 10s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(9) {
+    width: 150px;
+    height: 150px;
+    left: 40%;
+    animation-duration: 7s;
+    animation-delay: 4s;
+}
+
+.burbuja:nth-child(10) {
+    width: 40px;
+    height: 40px;
+    left: 45%;
+    animation-duration: 10s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(11) {
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    animation-duration: 15s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(12) {
+    width: 55px;
+    height: 55px;
+    left: 55%;
+    animation-duration: 10s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(13) {
+    width: 35px;
+    height: 35px;
+    left: 60%;
+    animation-duration: 7s;
+    animation-delay: 4s;
+}
+
+.burbuja:nth-child(14) {
+    width: 60px;
+    height: 60px;
+    left: 65%;
+    animation-duration: 12s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(15) {
+    width: 50px;
+    height: 50px;
+    left: 70%;
+    animation-duration: 6s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(16) {
+    width: 70px;
+    height: 70px;
+    left: 75%;
+    animation-duration: 5s;
+    animation-delay: 3s;
+}
+
+.burbuja:nth-child(17) {
+    width: 130px;
+    height: 130px;
+    left: 80%;
+    animation-duration: 8s;
+    animation-delay: 2s;
+}
+
+.burbuja:nth-child(18) {
+    width: 80px;
+    height: 80px;
+    left: 85%;
+    animation-duration: 11s;
+    animation-delay: 1s;
+}
+
+.burbuja:nth-child(19) {
+    width: 30px;
+    height: 30px;
+    left: 90%;
+    animation-duration: 8s;
+    animation-delay: 5s;
+}
+
+.burbuja:nth-child(20) {
+    width: 70px;
+    height: 70px;
+    left: 95%;
+    animation-duration: 6s;
+    animation-delay: 4s;
+}
