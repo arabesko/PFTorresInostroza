@@ -173,32 +173,29 @@ header {
 .contenedor_logo_menu {
   text-align: center;
   z-index: 1; }
-
-.contenedor_logo h1 {
-  font-family: "League Script", cursive;
-  font-size: 3.5em;
-  text-align: center;
-  text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
-  color: #F5CFD1; }
+  .contenedor_logo_menu h1 {
+    font-family: "League Script", cursive;
+    font-size: 3.5em;
+    text-align: center;
+    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
+    color: #F5CFD1; }
 
 .contenedor_nav {
   text-align: center; }
-
-.contenedor_nav a {
-  text-decoration: none;
-  color: #F5CFD1;
-  font-family: "Poiret One", cursive;
-  font-size: 1.2em;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
-  border-radius: 5px;
-  line-height: 25px;
-  transition: background-color 0.7s; }
-
-.contenedor_nav a:hover {
-  background-color: rgba(35, 13, 27, 0.2); }
+  .contenedor_nav a {
+    text-decoration: none;
+    color: #F5CFD1;
+    font-family: "Poiret One", cursive;
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    line-height: 25px;
+    transition: background-color 0.7s; }
+    .contenedor_nav a:hover {
+      background-color: rgba(35, 13, 27, 0.2); }
 
 /**ANIMACION DE FONDO**********************************************************/
 .contenedor_burbujas {
@@ -366,6 +363,13 @@ header {
 /******************************************************************************/
 /******************************GALERIA ARTISTA*********************************/
 /******************************************************************************/
+.foto_galeria {
+  height: 350px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top; }
+
 .contenedor_galeria {
   background-color: black;
   display: flex;
@@ -374,42 +378,25 @@ header {
   padding-top: 10px;
   gap: 10px;
   max-width: 1000px; }
-
-.contenedor_galeria div {
-  flex: 1;
-  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
-
-.contenedor_galeria div:hover {
-  flex: 3; }
-
-.contenedor_galeria:hover :not(:hover) {
-  opacity: .15; }
-
-.foto_galeria {
-  height: 350px;
-  border-radius: 5px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  background-color: rebeccapurple; }
-
-.contenedor_galeria :nth-child(1) {
-  background-image: url(../imagenes/galeria_tris/1.png); }
-
-.contenedor_galeria :nth-child(2) {
-  background-image: url(../imagenes/galeria_tris/2.png); }
-
-.contenedor_galeria :nth-child(3) {
-  background-image: url(../imagenes/galeria_tris/3.png); }
-
-.contenedor_galeria :nth-child(4) {
-  background-image: url(../imagenes/galeria_tris/4.png); }
-
-.contenedor_galeria :nth-child(5) {
-  background-image: url(../imagenes/galeria_tris/5.png); }
-
-.contenedor_galeria :nth-child(6) {
-  background-image: url(../imagenes/galeria_tris/6.png); }
+  .contenedor_galeria div {
+    flex: 1;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1); }
+    .contenedor_galeria div:hover {
+      flex: 3; }
+  .contenedor_galeria:hover :not(:hover) {
+    opacity: .15; }
+  .contenedor_galeria :nth-child(1) {
+    background-image: url(../imagenes/galeria_tris/1.png); }
+  .contenedor_galeria :nth-child(2) {
+    background-image: url(../imagenes/galeria_tris/2.png); }
+  .contenedor_galeria :nth-child(3) {
+    background-image: url(../imagenes/galeria_tris/3.png); }
+  .contenedor_galeria :nth-child(4) {
+    background-image: url(../imagenes/galeria_tris/4.png); }
+  .contenedor_galeria :nth-child(5) {
+    background-image: url(../imagenes/galeria_tris/5.png); }
+  .contenedor_galeria :nth-child(6) {
+    background-image: url(../imagenes/galeria_tris/6.png); }
 
 /******************************************************************************/
 /*****************************RESEÑA ARTISTA***********************************/
@@ -432,11 +419,10 @@ header {
   height: 98%;
   margin: auto;
   padding: 10px; }
-
-.efecto_vidrio h2 {
-  font-size: 2.2em;
-  font-weight: bold;
-  padding-bottom: 10px; }
+  .efecto_vidrio h2 {
+    font-size: 2.2em;
+    font-weight: bold;
+    padding-bottom: 10px; }
 
 /******************************************************************************/
 /**************GALERIA DE TATUAJES / GALERIA DE DISEÑOS************************/
@@ -452,13 +438,12 @@ header {
   height: 100%;
   max-width: 1000px;
   margin: auto; }
-
-.contenedor_galeria_tatuajes img {
-  width: 100%;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 20px; }
+  .contenedor_galeria_tatuajes img {
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px; }
 
 /******************************************************************************/
 /***************************PREGUNTAS Y RESPUESTAS*****************************/
@@ -486,21 +471,19 @@ header {
 /******************************************************************************/
 /***************************FORMULARIO DE CONTACTO*****************************/
 /******************************************************************************/
-.contenedor_formualrio {
+.contenedor_formulario {
   padding: 20px; }
-
-.contenedor_formulario form {
-  background-color: rgba(59, 59, 59, 0.644);
-  border-radius: 20px;
-  width: 350px;
-  margin: auto;
-  padding: 20px;
-  font-family: "Poiret One", cursive; }
-
-.contenedor_formulario form h2 {
-  font-size: 18px;
-  text-align: left;
-  font-weight: normal; }
+  .contenedor_formulario form {
+    background-color: rgba(59, 59, 59, 0.644);
+    border-radius: 20px;
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    font-family: "Poiret One", cursive; }
+    .contenedor_formulario form h2 {
+      font-size: 18px;
+      text-align: left;
+      font-weight: normal; }
 
 .cajas_ingreso {
   width: 100%;
@@ -531,9 +514,8 @@ header {
   border: 1px solid rgba(0, 0, 0, 0.35);
   background-color: blueviolet;
   color: white; }
-
-.botonFormulario:hover {
-  background-color: #9e66d3; }
+  .botonFormulario:hover {
+    background-color: #9e66d3; }
 
 /******************************************************************************/
 /***********************CONTACTO EN REDES SOCIALES*****************************/
@@ -575,8 +557,8 @@ footer {
     margin: auto; }
   .contenedor_nav {
     padding-top: 10px; }
-  .contenedor_nav li {
-    float: left; }
+    .contenedor_nav li {
+      float: left; }
   /**DESCRIPCIÓN ARTISTA**********************************************************/
   .contenedor_fondo {
     height: 210px; }
@@ -594,8 +576,8 @@ footer {
   .contenedor_nav {
     padding-top: 15px;
     padding-left: 200px; }
-  .contenedor_nav li {
-    float: left; }
+    .contenedor_nav li {
+      float: left; }
   /**DESCRIPCIÓN ARTISTA**********************************************************/
   .tituloGalreria {
     height: 70px;

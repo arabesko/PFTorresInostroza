@@ -25,11 +25,13 @@ footer {
     margin-right: 15px;
 }
 
-.contactenos p {
-    padding-top: 5px;
-    text-align: center;
-    background-color: $ColorFooter;
-    color: $ColorTextoMenu;
-    font-weight: bold;
-    font-family: 'Codystar', cursive;
+.contactenos {
+    p {
+        padding-top: 5px;
+        text-align: center;
+        background-color: $ColorFooter;
+        color: $ColorTextoMenu;
+        font-weight: bold;
+        font-family: 'Codystar', cursive;
+    }
 }

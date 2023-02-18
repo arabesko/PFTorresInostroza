@@ -24,38 +24,43 @@ header {
 .contenedor_logo_menu {
     text-align: center;
     z-index: 1;
+
+    h1 {
+        font-family: $FuenteLogo;
+        font-size: $TamañoFuenteLogo;
+        text-align: center;
+        text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
+        color: #F5CFD1;
+    }
 }
 
-.contenedor_logo h1 {
-    font-family: $FuenteLogo;
-    font-size: $TamañoFuenteLogo;
-    text-align: center;
-    text-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red;
-    color: #F5CFD1;
-}
+
 
 .contenedor_nav {
     text-align: center;
+
+    a {
+        text-decoration: none;
+        color: $ColorTextoMenu;
+        font-family: $FuenteTexto;
+        font-size: $TamañoFuenteMenu;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+        line-height: 25px;
+        transition: background-color 0.7s;
+
+        &:hover {
+            background-color: $ColorResalteMenu;
+        }
+    }
 }
 
-.contenedor_nav a {
-    text-decoration: none;
-    color: $ColorTextoMenu;
-    font-family: $FuenteTexto;
-    font-size: $TamañoFuenteMenu;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border-radius: 5px;
-    line-height: 25px;
-    transition: background-color 0.7s;
-}
 
-.contenedor_nav a:hover {
-    background-color: $ColorResalteMenu;
 
-}
+
 
 /**ANIMACION DE FONDO**********************************************************/
 .contenedor_burbujas {

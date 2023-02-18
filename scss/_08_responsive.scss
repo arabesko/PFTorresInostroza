@@ -11,10 +11,10 @@
 
     .contenedor_nav {
         padding-top: 10px;
-    }
 
-    .contenedor_nav li {
-        float: left;
+        li {
+            float: left;
+        }
     }
 
     /**DESCRIPCIÓN ARTISTA**********************************************************/
@@ -41,11 +41,12 @@
     .contenedor_nav {
         padding-top: 15px;
         padding-left: 200px;
+
+        li {
+            float: left;
+        }
     }
 
-    .contenedor_nav li {
-        float: left;
-    }
 
     /**DESCRIPCIÓN ARTISTA**********************************************************/
     .tituloGalreria {
@@ -53,6 +54,5 @@
         text-align: center;
         max-width: 1000px;
     }
-
 
 }

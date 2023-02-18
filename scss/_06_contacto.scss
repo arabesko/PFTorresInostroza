@@ -2,23 +2,23 @@
 /***************************FORMULARIO DE CONTACTO*****************************/
 /******************************************************************************/
 
-.contenedor_formualrio {
+.contenedor_formulario {
     padding: 20px;
-}
 
-.contenedor_formulario form {
-    background-color: rgba(59, 59, 59, 0.644);
-    border-radius: 20px;
-    width: 350px;
-    margin: auto;
-    padding: 20px;
-    font-family: $FuenteTexto;
-}
+    form {
+        background-color: rgba(59, 59, 59, 0.644);
+        border-radius: 20px;
+        width: 350px;
+        margin: auto;
+        padding: 20px;
+        font-family: $FuenteTexto;
 
-.contenedor_formulario form h2 {
-    font-size: 18px;
-    text-align: left;
-    font-weight: normal;
+        h2 {
+            font-size: 18px;
+            text-align: left;
+            font-weight: normal;
+        }
+    }
 }
 
 .cajas_ingreso {
@@ -52,8 +52,8 @@
     border: 1px solid rgba(0, 0, 0, 0.35);
     background-color: blueviolet;
     color: white;
-}
 
-.botonFormulario:hover {
-    background-color: rgb(158, 102, 211);
+    &:hover {
+        background-color: rgb(158, 102, 211);
+    }
 }
