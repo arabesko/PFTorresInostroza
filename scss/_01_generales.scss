@@ -19,6 +19,13 @@ $FuenteLogo: 'League Script', cursive;
 $FuenteTexto: 'Poiret One', cursive;
 $FuenteFooter: 'Codystar', cursive;
 
+/*OTRAS VARIABLES ANIMACIÓN BURBUJAS*/
+$valorMin: 20;
+$valorMax: 150;
+$valRandom: 0;
+$resultado: 0;
+$numBurbujas: 20;
+
 * {
     box-sizing: border-box;
 }
@@ -36,4 +43,17 @@ p {
     color: $ColorTextoMenu;
     padding-bottom: 5px;
     padding-bottom: 10px;
+}
+
+
+/******************************************************************************/
+/********************************UTILITARIOS***********************************/
+/******************************************************************************/
+
+/*********************************FUNCIONES************************************/
+
+@function valorAleatorio($valorMin, $valorMax) {
+    $valRandom: random();
+    $resultado : $valorMin + floor($valRandom * (($valorMax - $valorMin) + 1));
+    @return $resultado;
 }
