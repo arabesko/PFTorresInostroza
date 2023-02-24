@@ -226,144 +226,144 @@ header {
     opacity: 0; } }
 
 .burbuja:nth-child(1) {
-  width: 75px;
-  height: 75px;
-  left: 26%;
-  animation-duration: 15s;
-  animation-delay: 4s; }
+  width: 55px;
+  height: 55px;
+  left: 84%;
+  animation-duration: 5s;
+  animation-delay: 3s; }
 
 .burbuja:nth-child(2) {
-  width: 41px;
-  height: 41px;
-  left: 92%;
-  animation-duration: 10s;
-  animation-delay: 6s; }
+  width: 32px;
+  height: 32px;
+  left: 36%;
+  animation-duration: 4s;
+  animation-delay: 3s; }
 
 .burbuja:nth-child(3) {
-  width: 98px;
-  height: 98px;
-  left: 68%;
-  animation-duration: 5s;
-  animation-delay: 1s; }
+  width: 84px;
+  height: 84px;
+  left: 79%;
+  animation-duration: 8s;
+  animation-delay: 6s; }
 
 .burbuja:nth-child(4) {
-  width: 34px;
-  height: 34px;
-  left: 45%;
-  animation-duration: 11s;
-  animation-delay: 0s; }
-
-.burbuja:nth-child(5) {
-  width: 51px;
-  height: 51px;
-  left: 63%;
-  animation-duration: 7s;
-  animation-delay: 1s; }
-
-.burbuja:nth-child(6) {
-  width: 26px;
-  height: 26px;
-  left: 37%;
-  animation-duration: 15s;
-  animation-delay: 6s; }
-
-.burbuja:nth-child(7) {
-  width: 39px;
-  height: 39px;
-  left: 21%;
-  animation-duration: 6s;
-  animation-delay: 4s; }
-
-.burbuja:nth-child(8) {
   width: 52px;
   height: 52px;
-  left: 63%;
-  animation-duration: 12s;
-  animation-delay: 5s; }
+  left: 91%;
+  animation-duration: 8s;
+  animation-delay: 6s; }
 
-.burbuja:nth-child(9) {
-  width: 72px;
-  height: 72px;
-  left: 3%;
-  animation-duration: 13s;
-  animation-delay: 0s; }
+.burbuja:nth-child(5) {
+  width: 28px;
+  height: 28px;
+  left: 94%;
+  animation-duration: 5s;
+  animation-delay: 6s; }
 
-.burbuja:nth-child(10) {
-  width: 29px;
-  height: 29px;
-  left: 88%;
+.burbuja:nth-child(6) {
+  width: 117px;
+  height: 117px;
+  left: 96%;
+  animation-duration: 15s;
+  animation-delay: 4s; }
+
+.burbuja:nth-child(7) {
+  width: 117px;
+  height: 117px;
+  left: 79%;
   animation-duration: 5s;
   animation-delay: 3s; }
 
+.burbuja:nth-child(8) {
+  width: 62px;
+  height: 62px;
+  left: 63%;
+  animation-duration: 10s;
+  animation-delay: 6s; }
+
+.burbuja:nth-child(9) {
+  width: 36px;
+  height: 36px;
+  left: 39%;
+  animation-duration: 15s;
+  animation-delay: 3s; }
+
+.burbuja:nth-child(10) {
+  width: 32px;
+  height: 32px;
+  left: 0%;
+  animation-duration: 14s;
+  animation-delay: 4s; }
+
 .burbuja:nth-child(11) {
-  width: 141px;
-  height: 141px;
-  left: 34%;
+  width: 140px;
+  height: 140px;
+  left: 35%;
+  animation-duration: 8s;
+  animation-delay: 2s; }
+
+.burbuja:nth-child(12) {
+  width: 99px;
+  height: 99px;
+  left: 94%;
+  animation-duration: 6s;
+  animation-delay: 3s; }
+
+.burbuja:nth-child(13) {
+  width: 127px;
+  height: 127px;
+  left: 94%;
+  animation-duration: 9s;
+  animation-delay: 2s; }
+
+.burbuja:nth-child(14) {
+  width: 116px;
+  height: 116px;
+  left: 36%;
+  animation-duration: 8s;
+  animation-delay: 0s; }
+
+.burbuja:nth-child(15) {
+  width: 148px;
+  height: 148px;
+  left: 43%;
   animation-duration: 15s;
   animation-delay: 6s; }
 
-.burbuja:nth-child(12) {
-  width: 28px;
-  height: 28px;
-  left: 66%;
-  animation-duration: 6s;
-  animation-delay: 5s; }
-
-.burbuja:nth-child(13) {
-  width: 114px;
-  height: 114px;
-  left: 0%;
-  animation-duration: 6s;
-  animation-delay: 1s; }
-
-.burbuja:nth-child(14) {
-  width: 37px;
-  height: 37px;
-  left: 18%;
-  animation-duration: 11s;
-  animation-delay: 2s; }
-
-.burbuja:nth-child(15) {
-  width: 124px;
-  height: 124px;
-  left: 22%;
-  animation-duration: 8s;
-  animation-delay: 0s; }
-
 .burbuja:nth-child(16) {
-  width: 101px;
-  height: 101px;
-  left: 49%;
-  animation-duration: 5s;
-  animation-delay: 1s; }
-
-.burbuja:nth-child(17) {
-  width: 134px;
-  height: 134px;
-  left: 74%;
-  animation-duration: 10s;
-  animation-delay: 5s; }
-
-.burbuja:nth-child(18) {
-  width: 125px;
-  height: 125px;
-  left: 89%;
-  animation-duration: 8s;
-  animation-delay: 0s; }
-
-.burbuja:nth-child(19) {
-  width: 72px;
-  height: 72px;
-  left: 76%;
-  animation-duration: 5s;
+  width: 118px;
+  height: 118px;
+  left: 44%;
+  animation-duration: 11s;
   animation-delay: 3s; }
 
-.burbuja:nth-child(20) {
-  width: 108px;
-  height: 108px;
-  left: 73%;
+.burbuja:nth-child(17) {
+  width: 33px;
+  height: 33px;
+  left: 86%;
+  animation-duration: 12s;
+  animation-delay: 6s; }
+
+.burbuja:nth-child(18) {
+  width: 20px;
+  height: 20px;
+  left: 53%;
   animation-duration: 7s;
+  animation-delay: 1s; }
+
+.burbuja:nth-child(19) {
+  width: 132px;
+  height: 132px;
+  left: 79%;
+  animation-duration: 9s;
   animation-delay: 0s; }
+
+.burbuja:nth-child(20) {
+  width: 23px;
+  height: 23px;
+  left: 25%;
+  animation-duration: 11s;
+  animation-delay: 2s; }
 
 /******************************************************************************/
 /******************************GALERIA ARTISTA*********************************/

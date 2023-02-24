@@ -10,9 +10,9 @@ $ColorResalteMenu: rgba(34.9, 12.5, 26.7, .2);
 $ColorBurbuja: #3A1F4D;
 $ColorFooter: #875374;
 /*TAMAÑO FUENTES*/
-$TamañoFuenteLogo: 3.5em;
-$TamañoFuenteMenu: 1.2em;
-$TamañoParrafos: 1.05em;
+$TamanioFuenteLogo: 3.5em;
+$TamanioFuenteMenu: 1.2em;
+$TamanioParrafos: 1.05em;
 
 /*FUENTES*/
 $FuenteLogo: 'League Script', cursive;
@@ -38,7 +38,7 @@ body {
 
 h2,
 p {
-    font-size: $TamañoParrafos;
+    font-size: $TamanioParrafos;
     font-family: $FuenteTexto;
     color: $ColorTextoMenu;
     padding-bottom: 5px;
