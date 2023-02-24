@@ -3,11 +3,10 @@
 /******************************************************************************/
 
 
-/*COLORES*/
+/*COLORES PAGINAS*/
 $ColorFondoHeader: #875374;
 $ColorTextoMenu: #F5CFD1;
 $ColorResalteMenu: rgba(34.9, 12.5, 26.7, .2);
-$ColorBurbuja: #3A1F4D;
 $ColorFooter: #875374;
 /*TAMAÑO FUENTES*/
 $TamanioFuenteLogo: 3.5em;
@@ -20,11 +19,15 @@ $FuenteTexto: 'Poiret One', cursive;
 $FuenteFooter: 'Codystar', cursive;
 
 /*OTRAS VARIABLES ANIMACIÓN BURBUJAS*/
+$ColorBurbuja1: #C4A5B9;
+$ColorBurbuja2: #A9686D;
+$ColorBurbuja3: #3A1F4D;
+
 $valorMin: 20;
-$valorMax: 150;
+$valorMax: 130;
 $valRandom: 0;
 $resultado: 0;
-$numBurbujas: 20;
+$numBurbujas: 30;
 
 * {
     box-sizing: border-box;
@@ -56,4 +59,14 @@ p {
     $valRandom: random();
     $resultado : $valorMin + floor($valRandom * (($valorMax - $valorMin) + 1));
     @return $resultado;
+}
+
+/*********************************MIXINS************************************/
+@mixin iconosContacto($marSup, $marInf, $ancho, $alto, $marIzq, $marDer) {
+    margin-top: $marSup;
+    margin-bottom: $marInf;
+    width: $ancho;
+    height: $alto;
+    margin-left: $marIzq;
+    margin-right: $marDer;
 }

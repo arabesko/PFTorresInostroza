@@ -67,7 +67,6 @@ header {
 .burbuja {
     position: absolute;
     border-radius: 50%;
-    background-color: $ColorBurbuja;
     top: 165px;
     opacity: 0%;
     animation: MovBurbuja 3s linear infinite;
@@ -94,13 +93,27 @@ header {
         width: #{$resultado}px;
         height: #{$resultado}px;
 
-        $resultado: (valorAleatorio(0, 100)/100)*100%;
+        @if $resultado >100 {
+            background-color: $ColorBurbuja1;
+        }
+
+        @else if $resultado < 40 {
+            background-color: $ColorBurbuja2;
+        }
+
+        @else {
+            background-color: $ColorBurbuja3;
+        }
+
+        $resultado: (
+            valorAleatorio(0, 100)/100)*100%;
         left: #{$resultado};
 
-        $resultado: valorAleatorio(4, 15);
-        animation-duration: #{$resultado}s;
+        $resultado: valorAleatorio(7, 25
+        );
+    animation-duration: #{$resultado}s;
 
-        $resultado: valorAleatorio(0, 6);
-        animation-delay: #{$resultado}s;
-    }
+    $resultado: valorAleatorio(0, 10);
+    animation-delay: #{$resultado}s;
+}
 }
