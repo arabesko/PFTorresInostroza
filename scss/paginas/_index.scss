@@ -2,16 +2,42 @@
 /******************************GALERIA ARTISTA*********************************/
 /******************************************************************************/
 
+#galeria {
+    position: relative;
+}
+
+.profesion {
+    position: absolute;
+    top: 20px;
+    left: 25%;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(5px);
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+
+    h2 {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-bottom: 10px;
+        color: black;
+
+    }
+
+    z-index: 100;
+    border-radius: 5px;
+    text-align: center;
+}
+
 .foto_galeria {
     height: 350px;
     border-radius: 5px;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
 }
 
 .contenedor_galeria {
-    background-color: rgb(0, 0, 0);
     display: flex;
     height: auto;
     margin: auto;

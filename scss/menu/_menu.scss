@@ -58,6 +58,24 @@ header {
 
 
 /**ANIMACION DE FONDO**********************************************************/
+
+galeria_artista {
+    position: absolute;
+}
+
+.efecto_vidrio_titulo {
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(5px);
+
+    h2 {
+        font-size: 2.2em;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+}
+
 .contenedor_burbujas {
     background-color: black;
     position: relative;
