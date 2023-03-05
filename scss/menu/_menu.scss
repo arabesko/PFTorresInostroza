@@ -127,11 +127,12 @@ galeria_artista {
             valorAleatorio(0, 100)/100)*100%;
         left: #{$resultado};
 
-        $resultado: valorAleatorio(7, 25
+        $resultado: valorAleatorio(7, 15
         );
+
     animation-duration: #{$resultado}s;
 
-    $resultado: valorAleatorio(0, 10);
+    $resultado: valorAleatorio(0, 5);
     animation-delay: #{$resultado}s;
 }
 }
