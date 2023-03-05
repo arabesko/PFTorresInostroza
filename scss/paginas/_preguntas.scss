@@ -1,23 +1,48 @@
 /******************************************************************************/
 /***************************PREGUNTAS Y RESPUESTAS*****************************/
 /******************************************************************************/
-.accordion-header {
-    background-color: #000000;
+
+.rojo {
+    color: rgb(190, 63, 63);
+    font-weight: bold;
 }
 
-.accordion-button {
-    background-color: #9d759b8f;
-    color: #F5CFD1;
-}
-
-.accordion {
+.contenedor-acordeon {
+    width: 100%;
     max-width: 1000px;
     margin: auto;
+    margin-top: 10px;
+    font-family: $FuenteTexto;
 }
 
-.accordion-body {
-    background-color: #8753746f;
+.acordeon label {
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    background: #8753746f;
+    color: $ColorTextoMenu;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: all 300ms ease;
+    border-radius: 5px;
     font-size: $TamanioParrafos;
-    font-family: $FuenteTexto;
-    color: black;
+}
+
+.acordeon label:hover {
+    background: $ColorFondoHeader;
+}
+
+.acordeon .contenido-acordeon {
+    padding: 0;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+
+.btn-acordeon:checked~.contenido-acordeon {
+    max-height: 200px;
+}
+
+.btn-acordeon {
+    display: none;
 }

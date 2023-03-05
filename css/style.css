@@ -239,164 +239,164 @@ galeria_artista {
     opacity: 0; } }
 
 .burbuja:nth-child(1) {
-  width: 104px;
-  height: 104px;
-  background-color: #C4A5B9;
-  left: 75%;
-  animation-duration: 22s;
-  animation-delay: 10s; }
+  width: 24px;
+  height: 24px;
+  background-color: #A9686D;
+  left: 96%;
+  animation-duration: 14s;
+  animation-delay: 7s; }
 
 .burbuja:nth-child(2) {
-  width: 97px;
-  height: 97px;
+  width: 82px;
+  height: 82px;
   background-color: #3A1F4D;
-  left: 51%;
-  animation-duration: 16s;
+  left: 90%;
+  animation-duration: 17s;
   animation-delay: 1s; }
 
 .burbuja:nth-child(3) {
-  width: 62px;
-  height: 62px;
+  width: 99px;
+  height: 99px;
   background-color: #3A1F4D;
-  left: 90%;
-  animation-duration: 12s;
+  left: 59%;
+  animation-duration: 16s;
   animation-delay: 5s; }
 
 .burbuja:nth-child(4) {
-  width: 60px;
-  height: 60px;
-  background-color: #3A1F4D;
-  left: 9%;
-  animation-duration: 21s;
-  animation-delay: 10s; }
+  width: 103px;
+  height: 103px;
+  background-color: #C4A5B9;
+  left: 80%;
+  animation-duration: 25s;
+  animation-delay: 0s; }
 
 .burbuja:nth-child(5) {
-  width: 50px;
-  height: 50px;
-  background-color: #3A1F4D;
-  left: 14%;
-  animation-duration: 21s;
-  animation-delay: 5s; }
+  width: 128px;
+  height: 128px;
+  background-color: #C4A5B9;
+  left: 24%;
+  animation-duration: 22s;
+  animation-delay: 4s; }
 
 .burbuja:nth-child(6) {
-  width: 123px;
-  height: 123px;
-  background-color: #C4A5B9;
-  left: 73%;
-  animation-duration: 25s;
-  animation-delay: 1s; }
-
-.burbuja:nth-child(7) {
-  width: 117px;
-  height: 117px;
-  background-color: #C4A5B9;
-  left: 33%;
-  animation-duration: 7s;
-  animation-delay: 5s; }
-
-.burbuja:nth-child(8) {
-  width: 26px;
-  height: 26px;
-  background-color: #A9686D;
-  left: 80%;
-  animation-duration: 20s;
-  animation-delay: 7s; }
-
-.burbuja:nth-child(9) {
-  width: 74px;
-  height: 74px;
-  background-color: #3A1F4D;
-  left: 62%;
-  animation-duration: 25s;
-  animation-delay: 10s; }
-
-.burbuja:nth-child(10) {
-  width: 78px;
-  height: 78px;
-  background-color: #3A1F4D;
-  left: 45%;
-  animation-duration: 19s;
-  animation-delay: 6s; }
-
-.burbuja:nth-child(11) {
-  width: 41px;
-  height: 41px;
-  background-color: #3A1F4D;
-  left: 33%;
-  animation-duration: 20s;
-  animation-delay: 4s; }
-
-.burbuja:nth-child(12) {
-  width: 46px;
-  height: 46px;
-  background-color: #3A1F4D;
-  left: 49%;
-  animation-duration: 23s;
-  animation-delay: 4s; }
-
-.burbuja:nth-child(13) {
-  width: 101px;
-  height: 101px;
-  background-color: #C4A5B9;
-  left: 62%;
-  animation-duration: 10s;
-  animation-delay: 3s; }
-
-.burbuja:nth-child(14) {
-  width: 74px;
-  height: 74px;
-  background-color: #3A1F4D;
-  left: 36%;
-  animation-duration: 18s;
-  animation-delay: 8s; }
-
-.burbuja:nth-child(15) {
-  width: 89px;
-  height: 89px;
-  background-color: #3A1F4D;
-  left: 58%;
-  animation-duration: 19s;
-  animation-delay: 7s; }
-
-.burbuja:nth-child(16) {
   width: 81px;
   height: 81px;
   background-color: #3A1F4D;
-  left: 97%;
-  animation-duration: 13s;
-  animation-delay: 8s; }
+  left: 58%;
+  animation-duration: 24s;
+  animation-delay: 4s; }
 
-.burbuja:nth-child(17) {
-  width: 40px;
-  height: 40px;
-  background-color: #3A1F4D;
-  left: 95%;
-  animation-duration: 18s;
-  animation-delay: 2s; }
-
-.burbuja:nth-child(18) {
+.burbuja:nth-child(7) {
   width: 26px;
   height: 26px;
   background-color: #A9686D;
-  left: 97%;
-  animation-duration: 11s;
+  left: 6%;
+  animation-duration: 16s;
   animation-delay: 8s; }
 
-.burbuja:nth-child(19) {
-  width: 41px;
-  height: 41px;
+.burbuja:nth-child(8) {
+  width: 67px;
+  height: 67px;
   background-color: #3A1F4D;
-  left: 92%;
-  animation-duration: 25s;
+  left: 67%;
+  animation-duration: 13s;
   animation-delay: 1s; }
 
-.burbuja:nth-child(20) {
-  width: 65px;
-  height: 65px;
+.burbuja:nth-child(9) {
+  width: 21px;
+  height: 21px;
+  background-color: #A9686D;
+  left: 27%;
+  animation-duration: 20s;
+  animation-delay: 6s; }
+
+.burbuja:nth-child(10) {
+  width: 30px;
+  height: 30px;
+  background-color: #A9686D;
+  left: 53%;
+  animation-duration: 11s;
+  animation-delay: 1s; }
+
+.burbuja:nth-child(11) {
+  width: 57px;
+  height: 57px;
   background-color: #3A1F4D;
+  left: 83%;
+  animation-duration: 10s;
+  animation-delay: 7s; }
+
+.burbuja:nth-child(12) {
+  width: 106px;
+  height: 106px;
+  background-color: #C4A5B9;
+  left: 5%;
+  animation-duration: 7s;
+  animation-delay: 8s; }
+
+.burbuja:nth-child(13) {
+  width: 55px;
+  height: 55px;
+  background-color: #3A1F4D;
+  left: 35%;
+  animation-duration: 25s;
+  animation-delay: 9s; }
+
+.burbuja:nth-child(14) {
+  width: 93px;
+  height: 93px;
+  background-color: #3A1F4D;
+  left: 25%;
+  animation-duration: 19s;
+  animation-delay: 4s; }
+
+.burbuja:nth-child(15) {
+  width: 43px;
+  height: 43px;
+  background-color: #3A1F4D;
+  left: 98%;
+  animation-duration: 21s;
+  animation-delay: 8s; }
+
+.burbuja:nth-child(16) {
+  width: 105px;
+  height: 105px;
+  background-color: #C4A5B9;
+  left: 76%;
+  animation-duration: 12s;
+  animation-delay: 10s; }
+
+.burbuja:nth-child(17) {
+  width: 111px;
+  height: 111px;
+  background-color: #C4A5B9;
   left: 11%;
   animation-duration: 9s;
-  animation-delay: 10s; }
+  animation-delay: 3s; }
+
+.burbuja:nth-child(18) {
+  width: 73px;
+  height: 73px;
+  background-color: #3A1F4D;
+  left: 46%;
+  animation-duration: 7s;
+  animation-delay: 4s; }
+
+.burbuja:nth-child(19) {
+  width: 22px;
+  height: 22px;
+  background-color: #A9686D;
+  left: 28%;
+  animation-duration: 15s;
+  animation-delay: 5s; }
+
+.burbuja:nth-child(20) {
+  width: 97px;
+  height: 97px;
+  background-color: #3A1F4D;
+  left: 1%;
+  animation-duration: 17s;
+  animation-delay: 7s; }
 
 /******************************************************************************/
 /******************************GALERIA ARTISTA*********************************/
@@ -500,28 +500,48 @@ galeria_artista {
     width: 100%;
     padding-top: 10px;
     padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 20px; }
+    padding-right: 10px; }
 
 /******************************************************************************/
 /***************************PREGUNTAS Y RESPUESTAS*****************************/
 /******************************************************************************/
-.accordion-header {
-  background-color: #000000; }
+.rojo {
+  color: #be3f3f;
+  font-weight: bold; }
 
-.accordion-button {
-  background-color: #9d759b8f;
-  color: #F5CFD1; }
-
-.accordion {
+.contenedor-acordeon {
+  width: 100%;
   max-width: 1000px;
-  margin: auto; }
+  margin: auto;
+  margin-top: 10px;
+  font-family: "Poiret One", cursive; }
 
-.accordion-body {
-  background-color: #8753746f;
-  font-size: 1.05em;
-  font-family: "Poiret One", cursive;
-  color: black; }
+.acordeon label {
+  display: block;
+  padding: 20px;
+  font-size: 20px;
+  background: #8753746f;
+  color: #F5CFD1;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: all 300ms ease;
+  border-radius: 5px;
+  font-size: 1.05em; }
+
+.acordeon label:hover {
+  background: #875374; }
+
+.acordeon .contenido-acordeon {
+  padding: 0;
+  max-height: 0px;
+  overflow: hidden;
+  transition: all 300ms ease; }
+
+.btn-acordeon:checked ~ .contenido-acordeon {
+  max-height: 200px; }
+
+.btn-acordeon {
+  display: none; }
 
 /******************************************************************************/
 /***************************FORMULARIO DE CONTACTO*****************************/
